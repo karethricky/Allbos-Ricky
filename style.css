@@ -1,0 +1,81 @@
+body {
+	padding-top: 0;
+	background-image: url(sakura.png);
+	height: 100%;
+}
+.container{
+	padding: 1px;
+	width: 800px;
+	margin: 0 auto;
+	background-image: url(washi.png);
+	height: 100%;
+}
+
+.header {
+	cursor: pointer;
+	margin-left: 20px;
+	margin-top: 0;
+	width: 300px;
+	background-color: rgba(255, 136, 0, 0.521);
+	color: rgb(37, 59, 255);
+	text-align: center;
+	border-radius: 100px;
+	transition: 1.1s;
+}
+.header:hover {
+	background-color: rgb(132, 144, 255);
+	color: rgb(245, 189, 126);
+	box-shadow: 5px 5px 5px rgb(212, 210, 212);
+	-webkit-box-shadow: 5px 5px 5px rgb(212, 210, 212);
+	-ms-box-shadow: 5px 5px 5px rgb(212, 210, 212);
+	-moz-box-shadow: 5px 5px 5px rgb(212, 210, 212);
+}
+
+.header + hr {
+	border: 1px solid black;
+	width: 600px;
+}
+
+
+nav, ul {
+	display: flex;
+	list-style:none;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-size: 22px;
+	margin-left: 20px;
+}
+nav, ul a {
+	text-decoration: none;
+	color: rgb(189, 0, 196);
+}
+
+image {
+	width: 800px;
+}
+.image img {
+	height: 400px;
+	width: 793px;
+	background-size: cover;
+	border-top: 4px solid rgb(255, 0, 98);
+	border-bottom: 4px solid rgb(255, 0, 98);
+	border-left: 4px solid rgb(190, 49, 247);
+	border-right: 4px solid rgb(190, 49, 247);
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-left: 50px;
+}
+.grid p {
+	line-height: 2em;
+	font-size: 1.2em;
+}
+
+.footer {
+	color: rgb(146, 232, 243);
+	background-color: gray;
+	padding: 10px;
+	text-align: center;
+}
